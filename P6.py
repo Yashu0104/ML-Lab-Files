@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 file_path = 'ML Lab - 1.xlsx'
 data = pd.read_excel(file_path)
 
-x = data['Attendance %']
+x = data['Attendence %']
 y = data['Previous Marks'] 
 z = data['Hours Studied'] 
 
